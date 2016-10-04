@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-module.exports = {
-    "twitter":{
 
-    },
-    "port":1234
-=======
 module.exports ={
   "twitter":{
     "consumer_key":"Fsr7eeCYkAizkvIaaO6kDTZHO",
@@ -15,5 +9,5 @@ module.exports ={
     "x_auth_access_type":"read"
   },
   "port":1234
->>>>>>> c8ea2846dbeeb4f5804d2fda369a3fc1218c9381
+
 }
