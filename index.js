@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var path = require('path');
-var config = require('_config');
+var config = require('./config');
 var twt = new require('node-twitter-api')(config.twitter);
 
 app.use(express.static(__dirname+'/web/views'));
