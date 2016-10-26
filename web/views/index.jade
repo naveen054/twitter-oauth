@@ -1,5 +1,15 @@
 html
   head
-    link(type='text/css', src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
-  body
-    button.btn Click Me
+    link(rel='stylesheet', ,='', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', crossorigin='anonymous')
+    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js')
+    script(type='text/javascript').
+      console.log("Dfa");
+      var app = angular.module('app',[]);
+      app.controller('ctrl',function($scope,$http){
+      $scope.authenticate=function(){
+      var popupwindow = window.open("www.google.com",'google','width=200,height=200')
+      }
+      })
+  body(ng-app='app')
+    div(ng-controller='ctrl')
+      button.btn(ng-click='authenticate()') Click Me
