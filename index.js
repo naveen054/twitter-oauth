@@ -2,7 +2,10 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var config = require('./config');
+<<<<<<< HEAD
 var cookieSession = require('cookie-session');
+=======
+>>>>>>> cfec27ad11ce1845d95ef436a331a91efb20d4c6
 var twt = new require('node-twitter-api')(config.twitter);
 
 app.use(express.static(__dirname+'/web/views'));
@@ -21,7 +24,16 @@ app.set('view engine','jade');
 //  next();
 // })
 app.get('/',function(req,res){
+
+
+
+
+
+
+
+
   res.render('index');
+
 });
 
 app.get('/auth',function(req,res){

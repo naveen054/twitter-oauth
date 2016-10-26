@@ -1,9 +1,13 @@
+
 module.exports ={
   "twitter":{
-    "consumerKey":"wyg2pOTeyHj6o0BqSi6vGMKvq",
-    "consumerSecret":"75o3cik7QNnHVZ5VxHMNsi7zZWXP3UEaNgCIQOtQeYViw2xQ38",
-    "callback":"http://127.2.1.1:1234/user",
+    "consumer_key":"Fsr7eeCYkAizkvIaaO6kDTZHO",
+    "consumer_secret":"7TDqEzflg6oYjC0v2wljGeLkWfKzpJzvXfuIFwWssqKcrZaY7n",
+    "baseUrl":"https://api.twitter.com/1.1/",
+    "authUrl":"https://twitter.com/oauth/authorize?oauth_token=",
+    "callback":"http://www.naveenkerati.in/auth",
     "x_auth_access_type":"read"
   },
   "port":1234
+
 }
